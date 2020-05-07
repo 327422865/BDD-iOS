@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-BDD/Pods-BDD-resources.sh
+${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle
 ${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle
 ${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle
 ${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle

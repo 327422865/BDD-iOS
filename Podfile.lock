@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - AlipaySDK-iOS (15.7.4)
   - FCUUID (1.3.1):
     - UICKeyChainStore (~> 2.1.0)
   - FLAnimatedImage (1.0.12)
@@ -42,6 +43,7 @@ PODS:
   - SVProgressHUD (2.2.5)
   - UICKeyChainStore (2.1.2)
   - WebViewJavascriptBridge (6.0.3)
+  - WechatOpenSDK (1.8.7.1)
   - WMPageController (2.5.2)
   - XHLaunchAd (3.9.11):
     - FLAnimatedImage (~> 1.0.12)
@@ -59,6 +61,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - AlipaySDK-iOS
   - FCUUID
   - IQKeyboardManager (~> 5.0.7)
   - LBXScan/LBXNative (~> 2.3)
@@ -75,6 +78,7 @@ DEPENDENCIES:
   - SDCycleScrollView
   - SVProgressHUD
   - WebViewJavascriptBridge (~> 6.0.3)
+  - WechatOpenSDK
   - WMPageController (~> 2.5.2)
   - XHLaunchAd
   - YBImageBrowser (~> 1.1.1)
@@ -84,6 +88,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - AlipaySDK-iOS
     - FCUUID
     - FLAnimatedImage
     - IQKeyboardManager
@@ -102,6 +107,7 @@ SPEC REPOS:
     - SVProgressHUD
     - UICKeyChainStore
     - WebViewJavascriptBridge
+    - WechatOpenSDK
     - WMPageController
     - XHLaunchAd
     - YBImageBrowser
@@ -112,6 +118,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AlipaySDK-iOS: 8659cdb4403de7e5f26ad8b699864a9cbe53384c
   FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
@@ -130,6 +137,7 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
   WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
   XHLaunchAd: 9d4abeca598c4262e9df10dd3346b07b9fe40926
   YBImageBrowser: 3e61edabcb1927ddc095a96465f47fc551b8f9bf
@@ -138,6 +146,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: f12381c5d6f9d6b55ad8708b105a0e03555b2004
+PODFILE CHECKSUM: 94a7ee5cfc993d5ad99c024a7ae1df06746750de
 
 COCOAPODS: 1.9.1
