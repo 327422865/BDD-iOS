@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ADCycleView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BDDTopCycleView : UIView
+
+/**广告位*/
+@property (nonatomic, strong) ADCycleView *adView;
 
 @end
 

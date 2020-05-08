@@ -7,14 +7,17 @@
 //
 
 #import "BDDHomeHeadView.h"
+#import "BDDTopCycleView.h"
+#import "BDDTodaySelectionView.h"
 
 
 @interface BDDHomeHeadView ()
 /** 广告模块 */
-@property (nonatomic, strong) UIView *ADBackView;
+@property (nonatomic, strong) BDDTopCycleView *topCycleView;
 /** 今日优选模块 */
-@property (nonatomic, strong) UIView *todayChooseView;
-
+//@property (nonatomic, strong) UIView *todayChooseView;
+@property (nonatomic, strong) BDDTodaySelectionView *todaySelectionView;
+ 
 /**  */
 @property (nonatomic, strong) UIImageView *imageView;
 
@@ -38,15 +41,17 @@
 - (void)setupViews {
     self.backgroundColor = HEX_COLOR(@"#F4F4F4");
     
-    self.ADBackView = [[UIView alloc] init];
-    self.ADBackView.backgroundColor = [UIColor whiteColor];
-    [self addSubview:self.ADBackView];
+    self.topCycleView = [[BDDTopCycleView alloc] init];
+    self.topCycleView.backgroundColor = [UIColor whiteColor];
+    [self addSubview:self.topCycleView];
     
-    self.todayChooseView = [[UIView alloc] init];
-    self.todayChooseView.backgroundColor = [UIColor whiteColor];
-    [self addSubview:self.todayChooseView];
+    self.todaySelectionView = [[BDDTodaySelectionView alloc] init];
+    self.todaySelectionView.backgroundColor = [UIColor whiteColor];
+    [self addSubview:self.todaySelectionView];
     
-    self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@""]];
+    self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"three_4"]];
+    self.imageView.contentMode = UIViewContentModeScaleAspectFill;
+     self.imageView.clipsToBounds = YES;
     self.imageView.backgroundColor = [UIColor whiteColor];
     [self addSubview:self.imageView];
     
@@ -61,22 +66,22 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    [self.ADBackView mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self.topCycleView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.mas_top);
         make.left.equalTo(self.mas_left);
         make.right.equalTo(self.mas_right);
         make.height.equalTo(@262);
     }];
     
-    [self.todayChooseView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.ADBackView.mas_bottom).offset(10);
+    [self.todaySelectionView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.topCycleView.mas_bottom).offset(10);
         make.left.equalTo(self.mas_left).offset(10);
         make.right.equalTo(self.mas_right).offset(-10);
         make.height.equalTo(@267);
     }];
     
     [self.imageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.todayChooseView.mas_bottom).offset(10);
+        make.top.equalTo(self.todaySelectionView.mas_bottom).offset(10);
         make.left.equalTo(self.mas_left).offset(10);
         make.right.equalTo(self.mas_right).offset(-10);
         make.height.equalTo(@113);

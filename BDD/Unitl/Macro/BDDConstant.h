@@ -25,6 +25,22 @@ extern NSString * const DidChangeCommunityNotification;                     ///<
 #pragma mark - NSUserDefault Key
 extern NSString * const UserDefaultKeyDeviceToken;                      ///< 推送的deviceToken
 
+
+
+#pragma mark - 占位图
+extern NSString * const PlaceHolderHomeAD;          ///< 首页广告占位图
+extern NSString * const PlaceHolderPoster;          ///< 活动海报占位图
+extern NSString * const PlaceHolderPosterNOBackground;          ///< 活动海报占位图
+extern NSString * const PlaceHolderChatImage;       ///< 聊天对话中图片占位图
+extern NSString * const PlaceHolderHeader;          ///< 用户头像占位图
+extern NSString * const PlaceHolderCoterieHeader;   ///< 圈子头像占位图
+extern NSString * const PlaceHolderNews;            ///< 话题图片占位图
+
+
+#pragma mark - 图片比例
+extern double const Poster_Scale;               ///< 海报图片的比例(高/宽）
+extern double const ADCycle_Scale;              ///< 首页广告位的比例(高/宽）
+
 @end
 
 NS_ASSUME_NONNULL_END

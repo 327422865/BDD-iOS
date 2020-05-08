@@ -15,6 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - AlipaySDK-iOS (15.7.4)
+  - Bugly (2.5.2)
   - FCUUID (1.3.1):
     - UICKeyChainStore (~> 2.1.0)
   - FLAnimatedImage (1.0.12)
@@ -62,6 +63,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - AlipaySDK-iOS
+  - Bugly
   - FCUUID
   - IQKeyboardManager (~> 5.0.7)
   - LBXScan/LBXNative (~> 2.3)
@@ -89,6 +91,7 @@ SPEC REPOS:
   trunk:
     - AFNetworking
     - AlipaySDK-iOS
+    - Bugly
     - FCUUID
     - FLAnimatedImage
     - IQKeyboardManager
@@ -119,6 +122,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   AlipaySDK-iOS: 8659cdb4403de7e5f26ad8b699864a9cbe53384c
+  Bugly: dbac48b55ad469a97cc4321045cd50df8f63d44f
   FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
@@ -146,6 +150,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 94a7ee5cfc993d5ad99c024a7ae1df06746750de
+PODFILE CHECKSUM: 2523fda066c4a525977f4f2fbe676dee6f7e5938
 
 COCOAPODS: 1.9.1

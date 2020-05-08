@@ -28,5 +28,6 @@ target 'BDD' do
  pod 'WebViewJavascriptBridge', '~> 6.0.3'
  pod 'WechatOpenSDK'
  pod 'AlipaySDK-iOS'
+ pod 'Bugly'
 
 end

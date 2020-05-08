@@ -24,4 +24,20 @@ NSString * const DidChangeCommunityNotification                 = @"DidChangeCom
 NSString * const UserDefaultKeyDeviceToken              = @"UserDefaultKeyDeviceToken";                 ///< 推送的deviceToken
 
 
+#pragma mark - 占位图
+
+NSString * const PlaceHolderHomeAD = @"PlaceHolderPoster";                  ///< 首页广告占位图
+NSString * const PlaceHolderPoster = @"PlaceHolderPoster";                  ///< 活动海报占位图
+NSString * const PlaceHolderPosterNOBackground = @"PlaceHolderPosterNoBackground";///< 活动海报占位图
+NSString * const PlaceHolderChatImage = @"PlaceHolderPoster";               ///< 聊天对话中图片占位图
+NSString * const PlaceHolderHeader = @"PlaceHolderHeader";                  ///< 用户头像占位图
+NSString * const PlaceHolderCoterieHeader = @"PlaceHolderCoterieHeader";    ///< 圈子头像占位图
+NSString * const PlaceHolderNews = @"PlaceHolderPoster";                    ///< 话题图片占位图
+
+
+#pragma mark - 图片比例
+double const Poster_Scale = (1.0/2.0);/*160.0/343.0; */     ///< 海报图片高宽比
+double const ADCycle_Scale = (141.0/349.0);                 ///< 首页轮播广告位高宽比
+
+
 @end
