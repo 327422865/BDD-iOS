@@ -138,5 +138,7 @@ time = nil;\
 
 
 
+// 主背景色
+#define SL_MainViewBackColor [UIColor colorWithHexString:@"F3F3F3"]
 
 #endif /* MacroDefinitionHeader_h */

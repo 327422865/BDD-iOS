@@ -14,11 +14,11 @@ static NSString *cellID = @"BDDTodaySelectionCell";
 
 @interface BDDTodaySelectionView ()<UITableViewDelegate,UITableViewDataSource>
 
-
+/**标题*/
 @property (nonatomic, strong) UILabel *tilteLab;
+/**更多btn*/
 @property (nonatomic, strong) UIButton *moreBtn;
 @property (nonatomic, strong) UITableView *tableView;
-
 @property (nonatomic, strong) NSMutableArray *dataArray;
 
 
@@ -49,6 +49,7 @@ static NSString *cellID = @"BDDTodaySelectionCell";
     [btn setTitle:@"更多" forState:UIControlStateNormal];
     [btn setTitleColor:HEX_COLOR(@"#999999") forState:UIControlStateNormal];
     [btn.titleLabel setFont:[UIFont systemFontOfSize:12]];
+    [btn addTarget:self action:@selector(moreAction) forControlEvents:UIControlEventTouchUpInside];
     self.moreBtn = btn;
     [self addSubview: self.moreBtn];
     
@@ -100,10 +101,16 @@ static NSString *cellID = @"BDDTodaySelectionCell";
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-      
+      DLog(@"");
+}
+
+#pragma mark ------------ Action ---------------
+- (void)moreAction {
+    DLog(@"");
 }
 
 
+#pragma mark ------------ Lazy loading ---------------
 - (UITableView *)tableView {
     if (!_tableView) {
         _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 38, SCREEN_WIDTH, 200) style:UITableViewStylePlain];

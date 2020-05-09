@@ -58,6 +58,11 @@
 		D0198FB124646DB70001F073 /* BDDTodaySelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0198FAF24646DB70001F073 /* BDDTodaySelectionCell.xib */; };
 		D0198FB424647C020001F073 /* BDDTopBtbView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0198FB324647C020001F073 /* BDDTopBtbView.m */; };
 		D0198FB624647C120001F073 /* BDDTopBtbView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0198FB524647C120001F073 /* BDDTopBtbView.xib */; };
+		D080FA612464F5F400F76E14 /* BDDSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D080FA602464F5F400F76E14 /* BDDSearchViewController.m */; };
+		D080FA6624651B8C00F76E14 /* UIViewController+BDDBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D080FA6524651B8C00F76E14 /* UIViewController+BDDBase.m */; };
+		D080FA6F246551F600F76E14 /* BDDSearchResultsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D080FA6E246551F600F76E14 /* BDDSearchResultsView.m */; };
+		D080FA732465538900F76E14 /* BDDSearchResultsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D080FA712465538900F76E14 /* BDDSearchResultsCell.m */; };
+		D080FA742465538900F76E14 /* BDDSearchResultsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D080FA722465538900F76E14 /* BDDSearchResultsCell.xib */; };
 		D09F35E72462B5DA00459194 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F35E62462B5DA00459194 /* AppDelegate.m */; };
 		D09F35ED2462B5DA00459194 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F35EC2462B5DA00459194 /* ViewController.m */; };
 		D09F35F02462B5DA00459194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09F35EE2462B5DA00459194 /* Main.storyboard */; };
@@ -66,6 +71,9 @@
 		D09F35F82462B5DB00459194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F35F72462B5DB00459194 /* main.m */; };
 		D09F36022462B5DB00459194 /* BDDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F36012462B5DB00459194 /* BDDTests.m */; };
 		D09F360D2462B5DB00459194 /* BDDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F360C2462B5DB00459194 /* BDDUITests.m */; };
+		D0BB97A324656F1300FA6B95 /* BDDSearchHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BB97A224656F1300FA6B95 /* BDDSearchHistoryView.m */; };
+		D0BB97A62465CC2200FA6B95 /* BDDSearchTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BB97A52465CC2200FA6B95 /* BDDSearchTagView.m */; };
+		D0BB97A82465CC4900FA6B95 /* BDDSearchTagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0BB97A72465CC4900FA6B95 /* BDDSearchTagView.xib */; };
 		D0FCAE6F24639EA000E81E4D /* BDDUserAgreementAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FCAE6E24639EA000E81E4D /* BDDUserAgreementAlertView.m */; };
 		D0FCAE7124639FD100E81E4D /* BDDUserAgreementAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0FCAE7024639FD100E81E4D /* BDDUserAgreementAlertView.xib */; };
 		D0FCAE752463EDD800E81E4D /* BDDHomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FCAE742463EDD800E81E4D /* BDDHomeHeadView.m */; };
@@ -196,6 +204,17 @@
 		D0198FB224647C020001F073 /* BDDTopBtbView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDTopBtbView.h; sourceTree = "<group>"; };
 		D0198FB324647C020001F073 /* BDDTopBtbView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDTopBtbView.m; sourceTree = "<group>"; };
 		D0198FB524647C120001F073 /* BDDTopBtbView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDTopBtbView.xib; sourceTree = "<group>"; };
+		D080FA5F2464F5F400F76E14 /* BDDSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDSearchViewController.h; sourceTree = "<group>"; };
+		D080FA602464F5F400F76E14 /* BDDSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDSearchViewController.m; sourceTree = "<group>"; };
+		D080FA62246501B000F76E14 /* UIViewController+HUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HUD.m"; path = "../../../../../../Downloads/xiangmu 乔项目/NewWeiCard/NewWeiCard/Classes/Category/UIViewController+HUD.m"; sourceTree = "<group>"; };
+		D080FA63246501B000F76E14 /* UIViewController+HUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HUD.h"; path = "../../../../../../Downloads/xiangmu 乔项目/NewWeiCard/NewWeiCard/Classes/Category/UIViewController+HUD.h"; sourceTree = "<group>"; };
+		D080FA6424651B8C00F76E14 /* UIViewController+BDDBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BDDBase.h"; sourceTree = "<group>"; };
+		D080FA6524651B8C00F76E14 /* UIViewController+BDDBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BDDBase.m"; sourceTree = "<group>"; };
+		D080FA6D246551F600F76E14 /* BDDSearchResultsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDSearchResultsView.h; sourceTree = "<group>"; };
+		D080FA6E246551F600F76E14 /* BDDSearchResultsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDSearchResultsView.m; sourceTree = "<group>"; };
+		D080FA702465538900F76E14 /* BDDSearchResultsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDSearchResultsCell.h; sourceTree = "<group>"; };
+		D080FA712465538900F76E14 /* BDDSearchResultsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDSearchResultsCell.m; sourceTree = "<group>"; };
+		D080FA722465538900F76E14 /* BDDSearchResultsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDSearchResultsCell.xib; sourceTree = "<group>"; };
 		D09F35E22462B5DA00459194 /* BDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09F35E52462B5DA00459194 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D09F35E62462B5DA00459194 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -212,6 +231,11 @@
 		D09F36082462B5DB00459194 /* BDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09F360C2462B5DB00459194 /* BDDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDUITests.m; sourceTree = "<group>"; };
 		D09F360E2462B5DB00459194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BB97A124656F1300FA6B95 /* BDDSearchHistoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDSearchHistoryView.h; sourceTree = "<group>"; };
+		D0BB97A224656F1300FA6B95 /* BDDSearchHistoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDSearchHistoryView.m; sourceTree = "<group>"; };
+		D0BB97A42465CC2200FA6B95 /* BDDSearchTagView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDSearchTagView.h; sourceTree = "<group>"; };
+		D0BB97A52465CC2200FA6B95 /* BDDSearchTagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDSearchTagView.m; sourceTree = "<group>"; };
+		D0BB97A72465CC4900FA6B95 /* BDDSearchTagView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDSearchTagView.xib; sourceTree = "<group>"; };
 		D0FCAE6D24639EA000E81E4D /* BDDUserAgreementAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDUserAgreementAlertView.h; sourceTree = "<group>"; };
 		D0FCAE6E24639EA000E81E4D /* BDDUserAgreementAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDUserAgreementAlertView.m; sourceTree = "<group>"; };
 		D0FCAE7024639FD100E81E4D /* BDDUserAgreementAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDUserAgreementAlertView.xib; sourceTree = "<group>"; };
@@ -289,6 +313,8 @@
 		D0130A4D2462C9B600D79B7F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D080FA63246501B000F76E14 /* UIViewController+HUD.h */,
+				D080FA62246501B000F76E14 /* UIViewController+HUD.m */,
 				D0130A582462C9B600D79B7F /* UIButton+BDDTouchArea.h */,
 				D0130A4E2462C9B600D79B7F /* UIButton+BDDTouchArea.m */,
 				D0130A562462C9B600D79B7F /* UIImage+WLCompress.h */,
@@ -344,6 +370,8 @@
 			children = (
 				D0130A6F2462C9B600D79B7F /* BDDBaseViewController.h */,
 				D0130A6B2462C9B600D79B7F /* BDDBaseViewController.m */,
+				D080FA6424651B8C00F76E14 /* UIViewController+BDDBase.h */,
+				D080FA6524651B8C00F76E14 /* UIViewController+BDDBase.m */,
 				D0130A6E2462C9B600D79B7F /* BDDBaseTabBarController.h */,
 				D0130A6C2462C9B600D79B7F /* BDDBaseTabBarController.m */,
 				D0130A702462C9B600D79B7F /* BDDBaseNavigationController.h */,
@@ -392,6 +420,7 @@
 		D0130A932462D47900D79B7F /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D080FA5E2464F30500F76E14 /* Search */,
 				D0FCAE8C24642F6200E81E4D /* Model */,
 				D0FCAE722463EBA500E81E4D /* View */,
 				D0130A942462D47900D79B7F /* Controller */,
@@ -591,6 +620,25 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D080FA5E2464F30500F76E14 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D080FA5F2464F5F400F76E14 /* BDDSearchViewController.h */,
+				D080FA602464F5F400F76E14 /* BDDSearchViewController.m */,
+				D080FA6D246551F600F76E14 /* BDDSearchResultsView.h */,
+				D080FA6E246551F600F76E14 /* BDDSearchResultsView.m */,
+				D080FA702465538900F76E14 /* BDDSearchResultsCell.h */,
+				D080FA712465538900F76E14 /* BDDSearchResultsCell.m */,
+				D080FA722465538900F76E14 /* BDDSearchResultsCell.xib */,
+				D0BB97A124656F1300FA6B95 /* BDDSearchHistoryView.h */,
+				D0BB97A224656F1300FA6B95 /* BDDSearchHistoryView.m */,
+				D0BB97A42465CC2200FA6B95 /* BDDSearchTagView.h */,
+				D0BB97A52465CC2200FA6B95 /* BDDSearchTagView.m */,
+				D0BB97A72465CC4900FA6B95 /* BDDSearchTagView.xib */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		D09F35D92462B5DA00459194 = {
@@ -797,6 +845,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BB97A82465CC4900FA6B95 /* BDDSearchTagView.xib in Resources */,
 				D09F35F52462B5DB00459194 /* LaunchScreen.storyboard in Resources */,
 				D09F35F22462B5DB00459194 /* Assets.xcassets in Resources */,
 				D0FCAE7124639FD100E81E4D /* BDDUserAgreementAlertView.xib in Resources */,
@@ -806,6 +855,7 @@
 				D0130AC12462DC9A00D79B7F /* BDDLoginRegisterViewController.xib in Resources */,
 				D0130B1324631AFD00D79B7F /* BDDInviteCodeAlertView.xib in Resources */,
 				D09F35F02462B5DA00459194 /* Main.storyboard in Resources */,
+				D080FA742465538900F76E14 /* BDDSearchResultsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -872,8 +922,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BB97A324656F1300FA6B95 /* BDDSearchHistoryView.m in Sources */,
 				D0130A812462C9B700D79B7F /* UILabel+BDDCopy.m in Sources */,
 				D0FCAE8B24642E1F00E81E4D /* ADCycleView.m in Sources */,
+				D080FA612464F5F400F76E14 /* BDDSearchViewController.m in Sources */,
 				D0130AF52462DF5200D79B7F /* LBXPermissionHealth.m in Sources */,
 				D09F35ED2462B5DA00459194 /* ViewController.m in Sources */,
 				D09F35E72462B5DA00459194 /* AppDelegate.m in Sources */,
@@ -886,13 +938,16 @@
 				D0130A872462C9B700D79B7F /* BDDConstant.m in Sources */,
 				D0130B0B2462DFBC00D79B7F /* BDDWebViewController.m in Sources */,
 				D0130A832462C9B700D79B7F /* NSDate+Utils.m in Sources */,
+				D080FA732465538900F76E14 /* BDDSearchResultsCell.m in Sources */,
 				D0130A8B2462C9B700D79B7F /* BDDBaseNavigationController.m in Sources */,
+				D0BB97A62465CC2200FA6B95 /* BDDSearchTagView.m in Sources */,
 				D0198FB024646DB70001F073 /* BDDTodaySelectionCell.m in Sources */,
 				D0130A8F2462C9B700D79B7F /* UIViewController+MBPHUD.m in Sources */,
 				D0130AF72462DF5200D79B7F /* LBXPermissionSetting.m in Sources */,
 				D0130A842462C9B700D79B7F /* UIImageView+BDDWebCache.m in Sources */,
 				D0130AB52462D7D700D79B7F /* BDDCircleViewController.m in Sources */,
 				D0130AF22462DF5200D79B7F /* LBXPermissionNetwork.m in Sources */,
+				D080FA6F246551F600F76E14 /* BDDSearchResultsView.m in Sources */,
 				D0130A802462C9B700D79B7F /* UIButton+HQCustomIcon.m in Sources */,
 				D0130AFA2462DF5200D79B7F /* LBXPermissionContacts.m in Sources */,
 				D0130A8A2462C9B700D79B7F /* BDDBaseTabBarController.m in Sources */,
@@ -905,6 +960,7 @@
 				D0130A8E2462C9B700D79B7F /* BDDLinkTool.m in Sources */,
 				D0130AFC2462DF5200D79B7F /* LBXPermission.m in Sources */,
 				D09F35F82462B5DB00459194 /* main.m in Sources */,
+				D080FA6624651B8C00F76E14 /* UIViewController+BDDBase.m in Sources */,
 				D0130AFB2462DF5200D79B7F /* LBXPermissionCamera.m in Sources */,
 				D0198FB424647C020001F073 /* BDDTopBtbView.m in Sources */,
 				D0130AC02462DC9A00D79B7F /* BDDLoginRegisterViewController.m in Sources */,

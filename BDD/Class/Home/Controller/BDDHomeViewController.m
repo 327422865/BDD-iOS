@@ -9,6 +9,7 @@
 #import "BDDHomeViewController.h"
 #import "BDDHomeHeadView.h"
 #import "BDDHomeCollectionCell.h"
+#import "BDDSearchViewController.h"
 
 static NSString *const CellID = @"cell";
 static NSString *const headID = @"headID";
@@ -27,8 +28,7 @@ static NSString *const headID = @"headID";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-  
+   
     [self setupNavigation];
     [self setupUI];
 }
@@ -82,12 +82,11 @@ static NSString *const headID = @"headID";
 #pragma mark --- Action
 //搜索
 - (void)searchClick{
-//    SearchViewController *searchVC = [[SearchViewController alloc] init];
-//    [self.navigationController pushViewController:searchVC animated:YES];
+    BDDSearchViewController *searchVC = [[BDDSearchViewController alloc] init];
+    [self.navigationController pushViewController:searchVC animated:YES];
 }
 
-
-#pragma mark ----------------- Lazy loading -----------------------
+#pragma mark ------------ Lazy loading ---------------
 - (UIButton *)searchBtn {
     if (!_searchBtn) {
         _searchBtn = [UIButton buttonWithType:UIButtonTypeCustom];

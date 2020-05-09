@@ -43,12 +43,6 @@
     NSArray *btnTitleArray = @[@"话题",@"话题",@"话题",@"话题"];
     NSArray *btnImageArray = @[@"sp_dz_cker",@"sp_dz_cker",@"sp_dz_cker",@"sp_dz_cker"];
     
-    //    for (UIView *view in self.subviews) {
-    //           if ([ view isKindOfClass:[BDDTopBtbView class]]) {
-    //               [view removeFromSuperview];
-    //           }
-    //       }
-    
     for (int i = 0; i < btnTitleArray.count; i++) {
         BDDTopBtbView *btnView = [BDDTopBtbView view];
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickBtn:)];
