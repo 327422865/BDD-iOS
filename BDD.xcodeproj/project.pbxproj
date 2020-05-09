@@ -63,6 +63,10 @@
 		D080FA6F246551F600F76E14 /* BDDSearchResultsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D080FA6E246551F600F76E14 /* BDDSearchResultsView.m */; };
 		D080FA732465538900F76E14 /* BDDSearchResultsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D080FA712465538900F76E14 /* BDDSearchResultsCell.m */; };
 		D080FA742465538900F76E14 /* BDDSearchResultsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D080FA722465538900F76E14 /* BDDSearchResultsCell.xib */; };
+		D099EF112466841400A2F79C /* BDDEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = D099EF102466841400A2F79C /* BDDEmptyView.m */; };
+		D099EF152466879C00A2F79C /* BDDNoNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D099EF132466879C00A2F79C /* BDDNoNetworkViewController.m */; };
+		D099EF162466879C00A2F79C /* BDDNoNetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D099EF142466879C00A2F79C /* BDDNoNetworkViewController.xib */; };
+		D099EF192466A08900A2F79C /* BDDNoNetWorkHintView.m in Sources */ = {isa = PBXBuildFile; fileRef = D099EF182466A08900A2F79C /* BDDNoNetWorkHintView.m */; };
 		D09F35E72462B5DA00459194 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F35E62462B5DA00459194 /* AppDelegate.m */; };
 		D09F35ED2462B5DA00459194 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F35EC2462B5DA00459194 /* ViewController.m */; };
 		D09F35F02462B5DA00459194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09F35EE2462B5DA00459194 /* Main.storyboard */; };
@@ -215,6 +219,13 @@
 		D080FA702465538900F76E14 /* BDDSearchResultsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDSearchResultsCell.h; sourceTree = "<group>"; };
 		D080FA712465538900F76E14 /* BDDSearchResultsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDSearchResultsCell.m; sourceTree = "<group>"; };
 		D080FA722465538900F76E14 /* BDDSearchResultsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDSearchResultsCell.xib; sourceTree = "<group>"; };
+		D099EF0F2466841400A2F79C /* BDDEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDEmptyView.h; sourceTree = "<group>"; };
+		D099EF102466841400A2F79C /* BDDEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDEmptyView.m; sourceTree = "<group>"; };
+		D099EF122466879C00A2F79C /* BDDNoNetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDNoNetworkViewController.h; sourceTree = "<group>"; };
+		D099EF132466879C00A2F79C /* BDDNoNetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDNoNetworkViewController.m; sourceTree = "<group>"; };
+		D099EF142466879C00A2F79C /* BDDNoNetworkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDNoNetworkViewController.xib; sourceTree = "<group>"; };
+		D099EF172466A08900A2F79C /* BDDNoNetWorkHintView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDNoNetWorkHintView.h; sourceTree = "<group>"; };
+		D099EF182466A08900A2F79C /* BDDNoNetWorkHintView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDNoNetWorkHintView.m; sourceTree = "<group>"; };
 		D09F35E22462B5DA00459194 /* BDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09F35E52462B5DA00459194 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D09F35E62462B5DA00459194 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -572,6 +583,7 @@
 		D0130AFD2462DFBC00D79B7F /* General */ = {
 			isa = PBXGroup;
 			children = (
+				D099EF0E246683CF00A2F79C /* EmptyView */,
 				D0FCAE8824642E1F00E81E4D /* ADView */,
 				D0130AFE2462DFBC00D79B7F /* QRCodeScan */,
 				D0130B052462DFBC00D79B7F /* WebView */,
@@ -637,8 +649,22 @@
 				D0BB97A42465CC2200FA6B95 /* BDDSearchTagView.h */,
 				D0BB97A52465CC2200FA6B95 /* BDDSearchTagView.m */,
 				D0BB97A72465CC4900FA6B95 /* BDDSearchTagView.xib */,
+				D099EF122466879C00A2F79C /* BDDNoNetworkViewController.h */,
+				D099EF132466879C00A2F79C /* BDDNoNetworkViewController.m */,
+				D099EF142466879C00A2F79C /* BDDNoNetworkViewController.xib */,
+				D099EF172466A08900A2F79C /* BDDNoNetWorkHintView.h */,
+				D099EF182466A08900A2F79C /* BDDNoNetWorkHintView.m */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		D099EF0E246683CF00A2F79C /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				D099EF0F2466841400A2F79C /* BDDEmptyView.h */,
+				D099EF102466841400A2F79C /* BDDEmptyView.m */,
+			);
+			path = EmptyView;
 			sourceTree = "<group>";
 		};
 		D09F35D92462B5DA00459194 = {
@@ -852,6 +878,7 @@
 				D0198FB124646DB70001F073 /* BDDTodaySelectionCell.xib in Resources */,
 				D0FCAE7D246406A900E81E4D /* BDDHomeCollectionCell.xib in Resources */,
 				D0198FB624647C120001F073 /* BDDTopBtbView.xib in Resources */,
+				D099EF162466879C00A2F79C /* BDDNoNetworkViewController.xib in Resources */,
 				D0130AC12462DC9A00D79B7F /* BDDLoginRegisterViewController.xib in Resources */,
 				D0130B1324631AFD00D79B7F /* BDDInviteCodeAlertView.xib in Resources */,
 				D09F35F02462B5DA00459194 /* Main.storyboard in Resources */,
@@ -961,6 +988,7 @@
 				D0130AFC2462DF5200D79B7F /* LBXPermission.m in Sources */,
 				D09F35F82462B5DB00459194 /* main.m in Sources */,
 				D080FA6624651B8C00F76E14 /* UIViewController+BDDBase.m in Sources */,
+				D099EF152466879C00A2F79C /* BDDNoNetworkViewController.m in Sources */,
 				D0130AFB2462DF5200D79B7F /* LBXPermissionCamera.m in Sources */,
 				D0198FB424647C020001F073 /* BDDTopBtbView.m in Sources */,
 				D0130AC02462DC9A00D79B7F /* BDDLoginRegisterViewController.m in Sources */,
@@ -971,10 +999,12 @@
 				D0FCAE752463EDD800E81E4D /* BDDHomeHeadView.m in Sources */,
 				D0130B092462DFBC00D79B7F /* DIYScanViewController.m in Sources */,
 				D0130A8D2462C9B700D79B7F /* BDDTool.m in Sources */,
+				D099EF192466A08900A2F79C /* BDDNoNetWorkHintView.m in Sources */,
 				D0FCAE8F24642F7F00E81E4D /* BDDADModel.m in Sources */,
 				D0130AF82462DF5200D79B7F /* LBXPermissionPhotos.m in Sources */,
 				D0130A7F2462C9B700D79B7F /* UIView+Geometry.m in Sources */,
 				D0130AAF2462D6D800D79B7F /* BDDClassifyViewController.m in Sources */,
+				D099EF112466841400A2F79C /* BDDEmptyView.m in Sources */,
 				D0130A852462C9B700D79B7F /* BDDHttpTool.m in Sources */,
 				D0130AB22462D79900D79B7F /* BDDMeViewController.m in Sources */,
 				D0130A882462C9B700D79B7F /* BDDPayShareInstance.m in Sources */,

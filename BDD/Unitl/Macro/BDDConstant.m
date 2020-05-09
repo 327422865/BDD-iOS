@@ -21,7 +21,8 @@ NSString * const Wechat_APPID       = @"wxdc9f013f32195f13";                // �
 NSString * const DidChangeCommunityNotification                 = @"DidChangeCommunityNotification";
 
 #pragma mark - NSUserDefault Key
-NSString * const UserDefaultKeyDeviceToken              = @"UserDefaultKeyDeviceToken";                 ///< 推送的deviceToken
+NSString * const UserDefaultKeyDeviceToken              = @"UserDefaultKeyDeviceToken";              ///< 推送的deviceToken
+NSString * const UserDefaultKeySearchHistory            = @"UserDefaultKeySearchHistory";            ///搜索历史
 
 
 #pragma mark - 占位图

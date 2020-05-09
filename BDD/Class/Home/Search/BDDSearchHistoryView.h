@@ -7,18 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BDDNoNetWorkHintView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol SearchHistoryViewDelegate <NSObject>
 
 @optional
+/** 点击标签处理*/
 - (void)searchHistoryViewhandleSelectTag:(NSString *)keyWord;
+/** 删除历史标签*/
 - (void)searchHistoryViewDeleteHistoryTag;
 
 @end
 
 @interface BDDSearchHistoryView : UIView
+
+/**无网络提示*/
+@property (nonatomic, strong) BDDNoNetWorkHintView *noNetWorkHintV;
 
 @property (nonatomic ,strong)NSArray * arr;
 

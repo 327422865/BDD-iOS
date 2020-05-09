@@ -22,7 +22,8 @@
 #import "BDDTool.h"
 #import <UIViewController+RTRootNavigationController.h>
 #import "UIViewController+HUD.h"
-
+#import "UIView+Empty.h"
+#import "BDDEmptyView.h"
 
 
 //LBXScan 如果需要使用LBXScanViewController控制器代码，那么下载了那些模块，请定义对应的宏

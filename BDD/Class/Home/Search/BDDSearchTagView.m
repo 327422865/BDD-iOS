@@ -25,8 +25,14 @@
 }
 
 + (instancetype)view {
-    
  return [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:nil options:nil].firstObject;
+}
+
+- (instancetype)initWithCoder:(NSCoder *)coder {
+    if (self = [super initWithCoder:coder]) {
+        
+    }
+    return self;
 }
 
 - (void)setContentStr:(NSString *)contentStr{

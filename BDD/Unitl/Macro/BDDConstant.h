@@ -24,6 +24,7 @@ extern NSString * const DidChangeCommunityNotification;                     ///<
 
 #pragma mark - NSUserDefault Key
 extern NSString * const UserDefaultKeyDeviceToken;                      ///< 推送的deviceToken
+extern NSString * const UserDefaultKeySearchHistory;                    ///搜索历史
 
 
 

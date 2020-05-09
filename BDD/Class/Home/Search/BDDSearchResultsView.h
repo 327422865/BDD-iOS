@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BDDNoNetWorkHintView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BDDSearchResultsView : UIView
+/**无网络提示*/
+@property (nonatomic, strong) BDDNoNetWorkHintView *noNetWorkHintV;
 
 @end
 

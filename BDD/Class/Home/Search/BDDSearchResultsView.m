@@ -8,6 +8,7 @@
 
 #import "BDDSearchResultsView.h"
 #import "BDDSearchResultsCell.h"
+#import "BDDNoNetworkViewController.h"
 
 static NSString *cellID = @"BDDSearchResultsCell";
 #define kmargin 80 //间距
@@ -48,17 +49,31 @@ static NSString *cellID = @"BDDSearchResultsCell";
         make.height.equalTo(@10);
     }];
     [self.priceBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-          make.centerY.equalTo(self.pickerBackV.mas_centerY);
-          make.right.equalTo(self.pickerBackV.mas_right).offset(-80);
-          make.width.equalTo(@60);
-          make.height.equalTo(@10);
-      }];
+        make.centerY.equalTo(self.pickerBackV.mas_centerY);
+        make.right.equalTo(self.pickerBackV.mas_right).offset(-80);
+        make.width.equalTo(@60);
+        make.height.equalTo(@10);
+    }];
     
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-             make.top.equalTo(self.pickerBackV.mas_bottom).offset(10);
-             make.left.right.equalTo(self);
-             make.height.equalTo(@(SCREEN_HEIGHT - NAVIGATIONBAR_HEIGHT - kmargin ));
-         }];
+        make.top.equalTo(self.pickerBackV.mas_bottom).offset(10);
+        make.left.right.equalTo(self);
+        make.height.equalTo(@(SCREEN_HEIGHT - NAVIGATIONBAR_HEIGHT - kmargin ));
+    }];
+    
+    //无网络提示
+    self.noNetWorkHintV = [[BDDNoNetWorkHintView alloc] init];
+    self.noNetWorkHintV.hidden = YES;
+    self.noNetWorkHintV.clickBlock = ^{//点击无网络提示
+        BDDNoNetworkViewController *VC = [BDDNoNetworkViewController new];
+        [[BDDTool getCurrentVC].navigationController pushViewController:VC animated:YES];
+    };
+    [self addSubview:self.noNetWorkHintV];
+    [self.noNetWorkHintV mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.mas_top).offset(5);
+        make.left.right.equalTo(self);
+        make.height.equalTo(@40);
+    }];
 }
 
 
@@ -104,6 +119,7 @@ static NSString *cellID = @"BDDSearchResultsCell";
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         _tableView.delegate = self;
         _tableView.dataSource = self;
+        _tableView.ly_emptyView = [BDDEmptyView diyEmptyViewWithImageType:EmptyImageTypeNoFriend titleStr:nil detailStr:@"没有推荐内容~"];
         if (@available(iOS 11.0, *)) {
             self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         } else {

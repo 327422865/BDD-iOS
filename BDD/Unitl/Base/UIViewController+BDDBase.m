@@ -78,7 +78,7 @@
     CGFloat width = [BDDTool widthOfString:title font:[UIFont systemFontOfSize:16] height:44];
     rightBtn.frame = CGRectMake(0, 0, MAX(width, 44), 44);
     [rightBtn setTitle:title forState:UIControlStateNormal];
-    [rightBtn setTitleColor:THEME_COLOR forState:UIControlStateNormal];
+    [rightBtn setTitleColor:HEX_COLOR(@"343434") forState:UIControlStateNormal];
     rightBtn.titleLabel.font = [UIFont systemFontOfSize:16];
     rightBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
     [rightBtn addTarget:self action:action forControlEvents:UIControlEventTouchUpInside];

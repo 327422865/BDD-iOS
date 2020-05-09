@@ -7,6 +7,8 @@
 //
 
 #import "BDDSearchHistoryView.h"
+#import "BDDNoNetworkViewController.h"
+
 
 
 @interface BDDSearchHistoryView ()
@@ -16,6 +18,9 @@
 @property (nonatomic, strong) UILabel *titleLab;
 /**提示*/
 @property (nonatomic, strong) UILabel *hintLab;
+
+
+
 
 @end
 
@@ -31,11 +36,12 @@
 }
 
 - (void)setupViews {
+    //删除按钮
     self.deleteBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     self.deleteBtn.tag = 0;
     [self.deleteBtn setImage:[UIImage imageNamed:@"quanzishezhi_link"] forState:UIControlStateNormal];
     [self.deleteBtn addTarget:self action:@selector(deleteAction) forControlEvents:UIControlEventTouchUpInside];
-    
+    //提示语
     self.hintLab = [[UILabel alloc] init];
     self.hintLab.text = @"无搜索历史";
     self.hintLab.font =  [UIFont systemFontOfSize:14];
@@ -60,6 +66,19 @@
         make.top.equalTo(self.titleLab.mas_bottom).offset(10);
         make.left.equalTo(self.mas_left).offset(15);
         make.height.equalTo(@15);
+    }];
+    
+    //无网络提示
+    self.noNetWorkHintV = [[BDDNoNetWorkHintView alloc] init];
+    self.noNetWorkHintV.clickBlock = ^{//点击无网络提示
+        BDDNoNetworkViewController *VC = [BDDNoNetworkViewController new];
+        [[BDDTool getCurrentVC].navigationController pushViewController:VC animated:YES];
+    };
+    [self addSubview:self.noNetWorkHintV];
+    [self.noNetWorkHintV mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.mas_top).offset(2);
+        make.left.right.equalTo(self);
+        make.height.equalTo(@40);
     }];
 }
 
