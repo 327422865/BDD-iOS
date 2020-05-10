@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BDDClassifyDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="78" height="103"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="78" height="103"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="one_5" translatesAutoresizingMaskIntoConstraints="NO" id="GZp-NF-mFh">
+                        <rect key="frame" x="0.0" y="0.0" width="78" height="64"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="64" id="mVt-5o-ny5"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hsb-QJ-7Ea">
+                        <rect key="frame" x="10" y="75" width="58" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="6ui-Kf-KPu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="GZp-NF-mFh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="C6T-LK-xnH"/>
+                <constraint firstItem="Hsb-QJ-7Ea" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="FBr-EH-Bc9"/>
+                <constraint firstAttribute="trailing" secondItem="Hsb-QJ-7Ea" secondAttribute="trailing" constant="10" id="R0A-v0-3yW"/>
+                <constraint firstItem="Hsb-QJ-7Ea" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="T2N-fs-3YX"/>
+                <constraint firstItem="Hsb-QJ-7Ea" firstAttribute="top" secondItem="GZp-NF-mFh" secondAttribute="bottom" constant="11" id="ezk-JL-ch6"/>
+                <constraint firstItem="GZp-NF-mFh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="tg4-7h-v1G"/>
+                <constraint firstAttribute="trailing" secondItem="GZp-NF-mFh" secondAttribute="trailing" id="y1F-qY-qLU"/>
+            </constraints>
+            <size key="customSize" width="78" height="103"/>
+            <connections>
+                <outlet property="imageView" destination="GZp-NF-mFh" id="VaE-Mg-I9N"/>
+                <outlet property="titleLab" destination="Hsb-QJ-7Ea" id="6Tb-h2-0aO"/>
+            </connections>
+            <point key="canvasLocation" x="117.39130434782609" y="110.15625"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="one_5" width="320" height="568"/>
+    </resources>
+</document>

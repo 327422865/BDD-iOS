@@ -67,6 +67,14 @@
 		D099EF152466879C00A2F79C /* BDDNoNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D099EF132466879C00A2F79C /* BDDNoNetworkViewController.m */; };
 		D099EF162466879C00A2F79C /* BDDNoNetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D099EF142466879C00A2F79C /* BDDNoNetworkViewController.xib */; };
 		D099EF192466A08900A2F79C /* BDDNoNetWorkHintView.m in Sources */ = {isa = PBXBuildFile; fileRef = D099EF182466A08900A2F79C /* BDDNoNetWorkHintView.m */; };
+		D099EF1C2466EF5300A2F79C /* BDDClassifyMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D099EF1B2466EF5300A2F79C /* BDDClassifyMenuViewController.m */; };
+		D099EF1F2466EF8F00A2F79C /* BDDClassifyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D099EF1E2466EF8F00A2F79C /* BDDClassifyDetailViewController.m */; };
+		D099EF242466F0B200A2F79C /* BDDClassifyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D099EF232466F0B200A2F79C /* BDDClassifyModel.m */; };
+		D099EF272466F0FF00A2F79C /* BDDClassifyMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D099EF262466F0FF00A2F79C /* BDDClassifyMenuCell.m */; };
+		D099EF2E2466F47900A2F79C /* text.json in Resources */ = {isa = PBXBuildFile; fileRef = D099EF2D2466F47900A2F79C /* text.json */; };
+		D099EF322467922A00A2F79C /* BDDClassifyDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D099EF302467922A00A2F79C /* BDDClassifyDetailCell.m */; };
+		D099EF332467922A00A2F79C /* BDDClassifyDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D099EF312467922A00A2F79C /* BDDClassifyDetailCell.xib */; };
+		D099EF372467A3DA00A2F79C /* BDDGoodsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D099EF362467A3DA00A2F79C /* BDDGoodsDetailsViewController.m */; };
 		D09F35E72462B5DA00459194 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F35E62462B5DA00459194 /* AppDelegate.m */; };
 		D09F35ED2462B5DA00459194 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F35EC2462B5DA00459194 /* ViewController.m */; };
 		D09F35F02462B5DA00459194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09F35EE2462B5DA00459194 /* Main.storyboard */; };
@@ -226,6 +234,20 @@
 		D099EF142466879C00A2F79C /* BDDNoNetworkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDNoNetworkViewController.xib; sourceTree = "<group>"; };
 		D099EF172466A08900A2F79C /* BDDNoNetWorkHintView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDNoNetWorkHintView.h; sourceTree = "<group>"; };
 		D099EF182466A08900A2F79C /* BDDNoNetWorkHintView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDNoNetWorkHintView.m; sourceTree = "<group>"; };
+		D099EF1A2466EF5300A2F79C /* BDDClassifyMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDClassifyMenuViewController.h; sourceTree = "<group>"; };
+		D099EF1B2466EF5300A2F79C /* BDDClassifyMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDClassifyMenuViewController.m; sourceTree = "<group>"; };
+		D099EF1D2466EF8F00A2F79C /* BDDClassifyDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDClassifyDetailViewController.h; sourceTree = "<group>"; };
+		D099EF1E2466EF8F00A2F79C /* BDDClassifyDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDClassifyDetailViewController.m; sourceTree = "<group>"; };
+		D099EF222466F0B200A2F79C /* BDDClassifyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDClassifyModel.h; sourceTree = "<group>"; };
+		D099EF232466F0B200A2F79C /* BDDClassifyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDClassifyModel.m; sourceTree = "<group>"; };
+		D099EF252466F0FF00A2F79C /* BDDClassifyMenuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDClassifyMenuCell.h; sourceTree = "<group>"; };
+		D099EF262466F0FF00A2F79C /* BDDClassifyMenuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDClassifyMenuCell.m; sourceTree = "<group>"; };
+		D099EF2D2466F47900A2F79C /* text.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = text.json; sourceTree = "<group>"; };
+		D099EF2F2467922A00A2F79C /* BDDClassifyDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDClassifyDetailCell.h; sourceTree = "<group>"; };
+		D099EF302467922A00A2F79C /* BDDClassifyDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDClassifyDetailCell.m; sourceTree = "<group>"; };
+		D099EF312467922A00A2F79C /* BDDClassifyDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDClassifyDetailCell.xib; sourceTree = "<group>"; };
+		D099EF352467A3DA00A2F79C /* BDDGoodsDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDGoodsDetailsViewController.h; sourceTree = "<group>"; };
+		D099EF362467A3DA00A2F79C /* BDDGoodsDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDGoodsDetailsViewController.m; sourceTree = "<group>"; };
 		D09F35E22462B5DA00459194 /* BDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09F35E52462B5DA00459194 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D09F35E62462B5DA00459194 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -431,6 +453,7 @@
 		D0130A932462D47900D79B7F /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D099EF342467A37A00A2F79C /* GoodsDetails */,
 				D080FA5E2464F30500F76E14 /* Search */,
 				D0FCAE8C24642F6200E81E4D /* Model */,
 				D0FCAE722463EBA500E81E4D /* View */,
@@ -451,6 +474,9 @@
 		D0130A972462D47900D79B7F /* Classify */ = {
 			isa = PBXGroup;
 			children = (
+				D099EF2D2466F47900A2F79C /* text.json */,
+				D099EF212466F08800A2F79C /* Model */,
+				D099EF202466F08000A2F79C /* View */,
 				D0130A982462D47900D79B7F /* Controller */,
 			);
 			path = Classify;
@@ -461,6 +487,10 @@
 			children = (
 				D0130AAD2462D6D800D79B7F /* BDDClassifyViewController.h */,
 				D0130AAE2462D6D800D79B7F /* BDDClassifyViewController.m */,
+				D099EF1A2466EF5300A2F79C /* BDDClassifyMenuViewController.h */,
+				D099EF1B2466EF5300A2F79C /* BDDClassifyMenuViewController.m */,
+				D099EF1D2466EF8F00A2F79C /* BDDClassifyDetailViewController.h */,
+				D099EF1E2466EF8F00A2F79C /* BDDClassifyDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -665,6 +695,36 @@
 				D099EF102466841400A2F79C /* BDDEmptyView.m */,
 			);
 			path = EmptyView;
+			sourceTree = "<group>";
+		};
+		D099EF202466F08000A2F79C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D099EF252466F0FF00A2F79C /* BDDClassifyMenuCell.h */,
+				D099EF262466F0FF00A2F79C /* BDDClassifyMenuCell.m */,
+				D099EF2F2467922A00A2F79C /* BDDClassifyDetailCell.h */,
+				D099EF302467922A00A2F79C /* BDDClassifyDetailCell.m */,
+				D099EF312467922A00A2F79C /* BDDClassifyDetailCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D099EF212466F08800A2F79C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D099EF222466F0B200A2F79C /* BDDClassifyModel.h */,
+				D099EF232466F0B200A2F79C /* BDDClassifyModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D099EF342467A37A00A2F79C /* GoodsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				D099EF352467A3DA00A2F79C /* BDDGoodsDetailsViewController.h */,
+				D099EF362467A3DA00A2F79C /* BDDGoodsDetailsViewController.m */,
+			);
+			path = GoodsDetails;
 			sourceTree = "<group>";
 		};
 		D09F35D92462B5DA00459194 = {
@@ -873,8 +933,10 @@
 			files = (
 				D0BB97A82465CC4900FA6B95 /* BDDSearchTagView.xib in Resources */,
 				D09F35F52462B5DB00459194 /* LaunchScreen.storyboard in Resources */,
+				D099EF2E2466F47900A2F79C /* text.json in Resources */,
 				D09F35F22462B5DB00459194 /* Assets.xcassets in Resources */,
 				D0FCAE7124639FD100E81E4D /* BDDUserAgreementAlertView.xib in Resources */,
+				D099EF332467922A00A2F79C /* BDDClassifyDetailCell.xib in Resources */,
 				D0198FB124646DB70001F073 /* BDDTodaySelectionCell.xib in Resources */,
 				D0FCAE7D246406A900E81E4D /* BDDHomeCollectionCell.xib in Resources */,
 				D0198FB624647C120001F073 /* BDDTopBtbView.xib in Resources */,
@@ -975,6 +1037,7 @@
 				D0130AB52462D7D700D79B7F /* BDDCircleViewController.m in Sources */,
 				D0130AF22462DF5200D79B7F /* LBXPermissionNetwork.m in Sources */,
 				D080FA6F246551F600F76E14 /* BDDSearchResultsView.m in Sources */,
+				D099EF1C2466EF5300A2F79C /* BDDClassifyMenuViewController.m in Sources */,
 				D0130A802462C9B700D79B7F /* UIButton+HQCustomIcon.m in Sources */,
 				D0130AFA2462DF5200D79B7F /* LBXPermissionContacts.m in Sources */,
 				D0130A8A2462C9B700D79B7F /* BDDBaseTabBarController.m in Sources */,
@@ -983,16 +1046,21 @@
 				D0130AA72462D47900D79B7F /* BDDHomeViewController.m in Sources */,
 				D0130A822462C9B700D79B7F /* UIColor+BDDCategory.m in Sources */,
 				D0130AF92462DF5200D79B7F /* LBXPermissionLocation.m in Sources */,
+				D099EF272466F0FF00A2F79C /* BDDClassifyMenuCell.m in Sources */,
 				D0FCAE6F24639EA000E81E4D /* BDDUserAgreementAlertView.m in Sources */,
 				D0130A8E2462C9B700D79B7F /* BDDLinkTool.m in Sources */,
 				D0130AFC2462DF5200D79B7F /* LBXPermission.m in Sources */,
+				D099EF372467A3DA00A2F79C /* BDDGoodsDetailsViewController.m in Sources */,
 				D09F35F82462B5DB00459194 /* main.m in Sources */,
 				D080FA6624651B8C00F76E14 /* UIViewController+BDDBase.m in Sources */,
+				D099EF322467922A00A2F79C /* BDDClassifyDetailCell.m in Sources */,
 				D099EF152466879C00A2F79C /* BDDNoNetworkViewController.m in Sources */,
 				D0130AFB2462DF5200D79B7F /* LBXPermissionCamera.m in Sources */,
 				D0198FB424647C020001F073 /* BDDTopBtbView.m in Sources */,
 				D0130AC02462DC9A00D79B7F /* BDDLoginRegisterViewController.m in Sources */,
 				D0130AF42462DF5200D79B7F /* LBXPermissionReminders.m in Sources */,
+				D099EF1F2466EF8F00A2F79C /* BDDClassifyDetailViewController.m in Sources */,
+				D099EF242466F0B200A2F79C /* BDDClassifyModel.m in Sources */,
 				D0130B1124631ADA00D79B7F /* BDDInviteCodeAlertView.m in Sources */,
 				D0130A862462C9B700D79B7F /* BDDServerPort.m in Sources */,
 				D0FCAE8424642BA100E81E4D /* BDDTodaySelectionView.m in Sources */,

@@ -66,6 +66,11 @@ time = nil;\
 #define SCREEN_SIZE     [UIScreen mainScreen].bounds.size
 #endif
 
+// 宽度适配
+#define YKScalingStylewidth(Value) (Value*SCREEN_WIDTH/750)
+// 高度适配
+#define YKScalingStyleHeight(Value) (Value*SCREEN_HEIGHT/1334)
+
 //  状态栏、导航栏、TabBar的尺寸
 #define STATUSBAR_HEIGHT        (iPhone_FaceID ? 44.0 : 20.0)
 #define NAVIGATIONBAR_HEIGHT    (iPhone_FaceID ? 88.0 : 64.0)
