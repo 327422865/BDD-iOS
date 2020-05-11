@@ -8,6 +8,7 @@
 
 #import "BDDTodaySelectionView.h"
 #import "BDDTodaySelectionCell.h"
+#import "BDDGoodsDetailsViewController.h"
 
 
 static NSString *cellID = @"BDDTodaySelectionCell";
@@ -101,6 +102,8 @@ static NSString *cellID = @"BDDTodaySelectionCell";
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    BDDGoodsDetailsViewController *VC = [BDDGoodsDetailsViewController new];
+    [[BDDTool getCurrentVC].navigationController pushViewController:VC animated:YES];
       DLog(@"");
 }
 

@@ -63,7 +63,7 @@
         make.height.equalTo(@15);
     }];
     [self.hintLab mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.titleLab.mas_bottom).offset(10);
+        make.bottom.equalTo(self.mas_bottom).offset(-15);
         make.left.equalTo(self.mas_left).offset(15);
         make.height.equalTo(@15);
     }];
@@ -121,7 +121,7 @@
         rect.size.height = markBtn.frame.origin.y + markBtn.frame.size.height + marginY;
     }else{
         self.hintLab.hidden = NO;
-        rect.size.height = 70;
+        rect.size.height = 90;
         
         for (UIView *view in self.subviews) {
             if ([view isKindOfClass:[UIButton class]] && view.tag > 0 ) {

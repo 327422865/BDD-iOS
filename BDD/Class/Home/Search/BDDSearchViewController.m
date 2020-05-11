@@ -56,19 +56,19 @@
     //搜索框背景
     UIView *searchBackV = [[UIView alloc] init];
     searchBackV.backgroundColor = HEX_COLOR(@"#F0F0F0");
-    searchBackV.frame = CGRectMake(30, 5, SCREEN_WIDTH - 50 - 100, 30);
+    searchBackV.frame = CGRectMake(40, 8, SCREEN_WIDTH - 50 - 60, 30);
     searchBackV.layer.cornerRadius = 15;
     searchBackV.clipsToBounds = YES;
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickSearchBackV)];
     [searchBackV addGestureRecognizer:tap];
     self.searchBackV = searchBackV;
     [self.navigationController.navigationBar addSubview:searchBackV];
-    [searchBackV mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.center.equalTo(self.navigationController.navigationBar);
-        make.left.equalTo(self.navigationController.navigationBar.mas_left).offset(40);
-        make.right.equalTo(self.navigationController.navigationBar.mas_right).offset(-70);
-        make.height.equalTo(@30);
-    }];
+//    [searchBackV mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.center.equalTo(self.navigationController.navigationBar);
+//        make.left.equalTo(self.navigationController.navigationBar.mas_left).offset(40);
+//        make.right.equalTo(self.navigationController.navigationBar.mas_right).offset(-70);
+//        make.height.equalTo(@30);
+//    }];
     //搜索图标
     UIImageView *searchIcon = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"search_home"]];
     [self.searchBackV addSubview:searchIcon];

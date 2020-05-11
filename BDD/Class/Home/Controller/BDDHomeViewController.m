@@ -7,9 +7,12 @@
 //
 
 #import "BDDHomeViewController.h"
-#import "BDDHomeHeadView.h"
 #import "BDDHomeCollectionCell.h"
 #import "BDDSearchViewController.h"
+#import "BDDGoodsDetailsViewController.h"
+
+#import "BDDHomeHeadView.h"
+
 
 static NSString *const CellID = @"cell";
 static NSString *const headID = @"headID";
@@ -75,6 +78,13 @@ static NSString *const headID = @"headID";
         return self.headView;
     }
     return nil;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    DLog(@"");
+    BDDGoodsDetailsViewController *VC = [BDDGoodsDetailsViewController new];
+    [self.navigationController pushViewController:VC animated:YES];
+
 }
 
 

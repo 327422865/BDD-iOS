@@ -15,7 +15,6 @@
 /** 广告模块 */
 @property (nonatomic, strong) BDDTopCycleView *topCycleView;
 /** 今日优选模块 */
-//@property (nonatomic, strong) UIView *todayChooseView;
 @property (nonatomic, strong) BDDTodaySelectionView *todaySelectionView;
  
 /**  */

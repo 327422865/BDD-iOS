@@ -27,6 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = ColorF6;
+//   self.navigationController.interactivePopGestureRecognizer.enabled = YES;
     [self setupBackButton];
 //     [self.navigationController.navigationBar setClipsToBounds:YES];
 }

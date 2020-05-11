@@ -32,7 +32,6 @@
     [self.navigationBar setShadowImage:[UIImage new]];
     self.navigationBar.translucent = NO;// 关闭导航栏的半透明效果
 
-   
 }
 
 /// push时自动隐藏tabbar
