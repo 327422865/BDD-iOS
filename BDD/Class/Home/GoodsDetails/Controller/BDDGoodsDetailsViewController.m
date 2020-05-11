@@ -18,6 +18,8 @@
 #import "BDDGoddsPictureInforCell.h"
 #import "BDDGoodsCommentCell.h"
 
+#import "BDDGoodsSizeAlertView.h"
+
 static NSString * const cellID = @"CELL";
 static NSString * const PriceInforCellID = @"BDDGoodsPriceInforCell";//价格信息cell
 static NSString * const SpecificationInforCellID = @"BDDGoodsSpecificationInforCell";//规格信息cell
@@ -198,6 +200,8 @@ static NSString * const PictureInfoHeadVID = @"BDDPictureInfoHeadView";
 
 - (void)buyAction {
     DLog(@"");
+    BDDGoodsSizeAlertView *sizeAlerV = [BDDGoodsSizeAlertView view];
+    [sizeAlerV show];
 }
 
 #pragma mark ------------ Lazy loading ---------------

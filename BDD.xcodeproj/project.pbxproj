@@ -100,6 +100,10 @@
 		D0BB97A82465CC4900FA6B95 /* BDDSearchTagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0BB97A72465CC4900FA6B95 /* BDDSearchTagView.xib */; };
 		D0E91D9E2468E7C40081DA13 /* BDDGoodsCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E91D9D2468E7C40081DA13 /* BDDGoodsCommentCell.m */; };
 		D0E91DA124693D790081DA13 /* BDDGoodsDetailsFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E91DA024693D790081DA13 /* BDDGoodsDetailsFootView.m */; };
+		D0E91DA5246957850081DA13 /* BDDGoodsSizeAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E91DA4246957850081DA13 /* BDDGoodsSizeAlertView.m */; };
+		D0E91DA7246957A20081DA13 /* BDDGoodsSizeAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E91DA6246957A20081DA13 /* BDDGoodsSizeAlertView.xib */; };
+		D0E91DAA2469AB890081DA13 /* BDDGoodsServiceAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E91DA92469AB880081DA13 /* BDDGoodsServiceAlertView.m */; };
+		D0E91DAC2469ABAB0081DA13 /* BDDGoodsServiceAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E91DAB2469ABAB0081DA13 /* BDDGoodsServiceAlertView.xib */; };
 		D0FCAE6F24639EA000E81E4D /* BDDUserAgreementAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FCAE6E24639EA000E81E4D /* BDDUserAgreementAlertView.m */; };
 		D0FCAE7124639FD100E81E4D /* BDDUserAgreementAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0FCAE7024639FD100E81E4D /* BDDUserAgreementAlertView.xib */; };
 		D0FCAE752463EDD800E81E4D /* BDDHomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FCAE742463EDD800E81E4D /* BDDHomeHeadView.m */; };
@@ -307,6 +311,12 @@
 		D0E91D9D2468E7C40081DA13 /* BDDGoodsCommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDGoodsCommentCell.m; sourceTree = "<group>"; };
 		D0E91D9F24693D790081DA13 /* BDDGoodsDetailsFootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDGoodsDetailsFootView.h; sourceTree = "<group>"; };
 		D0E91DA024693D790081DA13 /* BDDGoodsDetailsFootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDGoodsDetailsFootView.m; sourceTree = "<group>"; };
+		D0E91DA3246957850081DA13 /* BDDGoodsSizeAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDGoodsSizeAlertView.h; sourceTree = "<group>"; };
+		D0E91DA4246957850081DA13 /* BDDGoodsSizeAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDGoodsSizeAlertView.m; sourceTree = "<group>"; };
+		D0E91DA6246957A20081DA13 /* BDDGoodsSizeAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDGoodsSizeAlertView.xib; sourceTree = "<group>"; };
+		D0E91DA82469AB880081DA13 /* BDDGoodsServiceAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDGoodsServiceAlertView.h; sourceTree = "<group>"; };
+		D0E91DA92469AB880081DA13 /* BDDGoodsServiceAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDGoodsServiceAlertView.m; sourceTree = "<group>"; };
+		D0E91DAB2469ABAB0081DA13 /* BDDGoodsServiceAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDGoodsServiceAlertView.xib; sourceTree = "<group>"; };
 		D0FCAE6D24639EA000E81E4D /* BDDUserAgreementAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDUserAgreementAlertView.h; sourceTree = "<group>"; };
 		D0FCAE6E24639EA000E81E4D /* BDDUserAgreementAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDUserAgreementAlertView.m; sourceTree = "<group>"; };
 		D0FCAE7024639FD100E81E4D /* BDDUserAgreementAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDUserAgreementAlertView.xib; sourceTree = "<group>"; };
@@ -651,6 +661,7 @@
 		D0130AFD2462DFBC00D79B7F /* General */ = {
 			isa = PBXGroup;
 			children = (
+				D0E91DA2246956B90081DA13 /* AlertView */,
 				D099EF0E246683CF00A2F79C /* EmptyView */,
 				D0FCAE8824642E1F00E81E4D /* ADView */,
 				D0130AFE2462DFBC00D79B7F /* QRCodeScan */,
@@ -871,6 +882,19 @@
 			path = BDDUITests;
 			sourceTree = "<group>";
 		};
+		D0E91DA2246956B90081DA13 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				D0E91DA3246957850081DA13 /* BDDGoodsSizeAlertView.h */,
+				D0E91DA4246957850081DA13 /* BDDGoodsSizeAlertView.m */,
+				D0E91DA6246957A20081DA13 /* BDDGoodsSizeAlertView.xib */,
+				D0E91DA82469AB880081DA13 /* BDDGoodsServiceAlertView.h */,
+				D0E91DA92469AB880081DA13 /* BDDGoodsServiceAlertView.m */,
+				D0E91DAB2469ABAB0081DA13 /* BDDGoodsServiceAlertView.xib */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
 		D0FCAE722463EBA500E81E4D /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -1026,6 +1050,7 @@
 				D099EF332467922A00A2F79C /* BDDClassifyDetailCell.xib in Resources */,
 				D0198FB124646DB70001F073 /* BDDTodaySelectionCell.xib in Resources */,
 				D0FCAE7D246406A900E81E4D /* BDDHomeCollectionCell.xib in Resources */,
+				D0E91DA7246957A20081DA13 /* BDDGoodsSizeAlertView.xib in Resources */,
 				D0708DA3246817A700E98D91 /* BDDRelatedProjectCell.xib in Resources */,
 				D0BB8FA02467FD05006EFA8A /* BDDGoodsSpecificationInforCell.xib in Resources */,
 				D0198FB624647C120001F073 /* BDDTopBtbView.xib in Resources */,
@@ -1035,6 +1060,7 @@
 				D0130B1324631AFD00D79B7F /* BDDInviteCodeAlertView.xib in Resources */,
 				D09F35F02462B5DA00459194 /* Main.storyboard in Resources */,
 				D080FA742465538900F76E14 /* BDDSearchResultsCell.xib in Resources */,
+				D0E91DAC2469ABAB0081DA13 /* BDDGoodsServiceAlertView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1117,12 +1143,14 @@
 				D0130AF12462DF5200D79B7F /* LBXPermissionMicrophone.m in Sources */,
 				D0130A892462C9B700D79B7F /* BDDBaseViewController.m in Sources */,
 				D0130A872462C9B700D79B7F /* BDDConstant.m in Sources */,
+				D0E91DA5246957850081DA13 /* BDDGoodsSizeAlertView.m in Sources */,
 				D0130B0B2462DFBC00D79B7F /* BDDWebViewController.m in Sources */,
 				D0130A832462C9B700D79B7F /* NSDate+Utils.m in Sources */,
 				D0708DA62468345F00E98D91 /* BDDRelatedProjecHeadView.m in Sources */,
 				D080FA732465538900F76E14 /* BDDSearchResultsCell.m in Sources */,
 				D0130A8B2462C9B700D79B7F /* BDDBaseNavigationController.m in Sources */,
 				D0BB97A62465CC2200FA6B95 /* BDDSearchTagView.m in Sources */,
+				D0E91DAA2469AB890081DA13 /* BDDGoodsServiceAlertView.m in Sources */,
 				D0198FB024646DB70001F073 /* BDDTodaySelectionCell.m in Sources */,
 				D0130A8F2462C9B700D79B7F /* UIViewController+MBPHUD.m in Sources */,
 				D099EF3A2467B1E600A2F79C /* BDDGoodsDetailsHeadView.m in Sources */,

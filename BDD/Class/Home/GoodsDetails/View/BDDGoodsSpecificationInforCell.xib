@@ -122,7 +122,7 @@
             </constraints>
             <size key="customSize" width="305" height="126"/>
             <connections>
-                <outlet property="freightView" destination="d4U-eP-ywZ" id="lxv-9B-Nep"/>
+                <outlet property="serviceView" destination="d4U-eP-ywZ" id="0l9-b7-3du"/>
                 <outlet property="specificationView" destination="3bE-I4-Ixt" id="zcq-LS-fYC"/>
             </connections>
             <point key="canvasLocation" x="134.05797101449275" y="120.53571428571428"/>
