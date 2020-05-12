@@ -7,6 +7,7 @@
 //
 
 #import "BDDGoodsDetailsViewController.h"
+#import "BDDShopHomeViewController.h"
 
 #import "BDDGoodsDetailsHeadView.h"
 #import "BDDRelatedProjecHeadView.h"
@@ -111,6 +112,10 @@ static NSString * const PictureInfoHeadVID = @"BDDPictureInfoHeadView";
         return cell;
     }else if (indexPath.section == 2){//商家信息cell
         BDDMerchantsInforCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:MerchantsInforCellCellID forIndexPath:indexPath];
+        cell.didClickBlock = ^{
+            BDDShopHomeViewController *shopHomeVC = [BDDShopHomeViewController new];
+            [self.navigationController pushViewController:shopHomeVC animated:YES];
+        };
         return cell;
     }else if (indexPath.section == 3){//商品评论cell
         BDDGoodsCommentCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CommentCellID forIndexPath:indexPath];

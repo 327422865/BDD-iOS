@@ -54,6 +54,12 @@
 		D0130B0B2462DFBC00D79B7F /* BDDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0130B062462DFBC00D79B7F /* BDDWebViewController.m */; };
 		D0130B1124631ADA00D79B7F /* BDDInviteCodeAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0130B1024631ADA00D79B7F /* BDDInviteCodeAlertView.m */; };
 		D0130B1324631AFD00D79B7F /* BDDInviteCodeAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0130B1224631AFD00D79B7F /* BDDInviteCodeAlertView.xib */; };
+		D01943B2246A380100E7BBE9 /* BDDShopHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01943B1246A380100E7BBE9 /* BDDShopHomeViewController.m */; };
+		D01943BB246A3A0100E7BBE9 /* BDDShopHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D01943B9246A3A0000E7BBE9 /* BDDShopHomeCell.m */; };
+		D01943BC246A3A0100E7BBE9 /* BDDShopHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D01943BA246A3A0100E7BBE9 /* BDDShopHomeCell.xib */; };
+		D01943C0246A48DA00E7BBE9 /* BDDShopHomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = D01943BE246A48DA00E7BBE9 /* BDDShopHomeHeadView.m */; };
+		D01943C1246A48DA00E7BBE9 /* BDDShopHomeHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D01943BF246A48DA00E7BBE9 /* BDDShopHomeHeadView.xib */; };
+		D01943C5246A79F800E7BBE9 /* BDDNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D01943C4246A79F800E7BBE9 /* BDDNavigationBar.m */; };
 		D0198FB024646DB70001F073 /* BDDTodaySelectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0198FAE24646DB70001F073 /* BDDTodaySelectionCell.m */; };
 		D0198FB124646DB70001F073 /* BDDTodaySelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0198FAF24646DB70001F073 /* BDDTodaySelectionCell.xib */; };
 		D0198FB424647C020001F073 /* BDDTopBtbView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0198FB324647C020001F073 /* BDDTopBtbView.m */; };
@@ -228,6 +234,16 @@
 		D0130B0F24631ADA00D79B7F /* BDDInviteCodeAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDInviteCodeAlertView.h; sourceTree = "<group>"; };
 		D0130B1024631ADA00D79B7F /* BDDInviteCodeAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDInviteCodeAlertView.m; sourceTree = "<group>"; };
 		D0130B1224631AFD00D79B7F /* BDDInviteCodeAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDInviteCodeAlertView.xib; sourceTree = "<group>"; };
+		D01943B0246A380100E7BBE9 /* BDDShopHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDShopHomeViewController.h; sourceTree = "<group>"; };
+		D01943B1246A380100E7BBE9 /* BDDShopHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDShopHomeViewController.m; sourceTree = "<group>"; };
+		D01943B8246A3A0000E7BBE9 /* BDDShopHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDShopHomeCell.h; sourceTree = "<group>"; };
+		D01943B9246A3A0000E7BBE9 /* BDDShopHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDShopHomeCell.m; sourceTree = "<group>"; };
+		D01943BA246A3A0100E7BBE9 /* BDDShopHomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDShopHomeCell.xib; sourceTree = "<group>"; };
+		D01943BD246A48DA00E7BBE9 /* BDDShopHomeHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDShopHomeHeadView.h; sourceTree = "<group>"; };
+		D01943BE246A48DA00E7BBE9 /* BDDShopHomeHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDShopHomeHeadView.m; sourceTree = "<group>"; };
+		D01943BF246A48DA00E7BBE9 /* BDDShopHomeHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDShopHomeHeadView.xib; sourceTree = "<group>"; };
+		D01943C3246A79F800E7BBE9 /* BDDNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDNavigationBar.h; sourceTree = "<group>"; };
+		D01943C4246A79F800E7BBE9 /* BDDNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDNavigationBar.m; sourceTree = "<group>"; };
 		D0198FAD24646DB70001F073 /* BDDTodaySelectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDTodaySelectionCell.h; sourceTree = "<group>"; };
 		D0198FAE24646DB70001F073 /* BDDTodaySelectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDTodaySelectionCell.m; sourceTree = "<group>"; };
 		D0198FAF24646DB70001F073 /* BDDTodaySelectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDTodaySelectionCell.xib; sourceTree = "<group>"; };
@@ -280,7 +296,7 @@
 		D099EF362467A3DA00A2F79C /* BDDGoodsDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDGoodsDetailsViewController.m; sourceTree = "<group>"; };
 		D099EF382467B1E600A2F79C /* BDDGoodsDetailsHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDGoodsDetailsHeadView.h; sourceTree = "<group>"; };
 		D099EF392467B1E600A2F79C /* BDDGoodsDetailsHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDGoodsDetailsHeadView.m; sourceTree = "<group>"; };
-		D09F35E22462B5DA00459194 /* BDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09F35E22462B5DA00459194 /* 宝多多.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "宝多多.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09F35E52462B5DA00459194 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D09F35E62462B5DA00459194 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D09F35EB2462B5DA00459194 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -539,6 +555,8 @@
 				D099EF1B2466EF5300A2F79C /* BDDClassifyMenuViewController.m */,
 				D099EF1D2466EF8F00A2F79C /* BDDClassifyDetailViewController.h */,
 				D099EF1E2466EF8F00A2F79C /* BDDClassifyDetailViewController.m */,
+				D01943B0246A380100E7BBE9 /* BDDShopHomeViewController.h */,
+				D01943B1246A380100E7BBE9 /* BDDShopHomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -661,6 +679,7 @@
 		D0130AFD2462DFBC00D79B7F /* General */ = {
 			isa = PBXGroup;
 			children = (
+				D01943C2246A79B100E7BBE9 /* CustomNavigation */,
 				D0E91DA2246956B90081DA13 /* AlertView */,
 				D099EF0E246683CF00A2F79C /* EmptyView */,
 				D0FCAE8824642E1F00E81E4D /* ADView */,
@@ -711,6 +730,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D01943C2246A79B100E7BBE9 /* CustomNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				D01943C3246A79F800E7BBE9 /* BDDNavigationBar.h */,
+				D01943C4246A79F800E7BBE9 /* BDDNavigationBar.m */,
+			);
+			path = CustomNavigation;
 			sourceTree = "<group>";
 		};
 		D0708DAD2468509500E98D91 /* Controller */ = {
@@ -801,6 +829,12 @@
 				D099EF2F2467922A00A2F79C /* BDDClassifyDetailCell.h */,
 				D099EF302467922A00A2F79C /* BDDClassifyDetailCell.m */,
 				D099EF312467922A00A2F79C /* BDDClassifyDetailCell.xib */,
+				D01943BD246A48DA00E7BBE9 /* BDDShopHomeHeadView.h */,
+				D01943BE246A48DA00E7BBE9 /* BDDShopHomeHeadView.m */,
+				D01943BF246A48DA00E7BBE9 /* BDDShopHomeHeadView.xib */,
+				D01943B8246A3A0000E7BBE9 /* BDDShopHomeCell.h */,
+				D01943B9246A3A0000E7BBE9 /* BDDShopHomeCell.m */,
+				D01943BA246A3A0100E7BBE9 /* BDDShopHomeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -839,7 +873,7 @@
 		D09F35E32462B5DA00459194 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D09F35E22462B5DA00459194 /* BDD.app */,
+				D09F35E22462B5DA00459194 /* 宝多多.app */,
 				D09F35FD2462B5DB00459194 /* BDDTests.xctest */,
 				D09F36082462B5DB00459194 /* BDDUITests.xctest */,
 			);
@@ -954,7 +988,7 @@
 			);
 			name = BDD;
 			productName = BDD;
-			productReference = D09F35E22462B5DA00459194 /* BDD.app */;
+			productReference = D09F35E22462B5DA00459194 /* 宝多多.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D09F35FC2462B5DB00459194 /* BDDTests */ = {
@@ -1050,6 +1084,7 @@
 				D099EF332467922A00A2F79C /* BDDClassifyDetailCell.xib in Resources */,
 				D0198FB124646DB70001F073 /* BDDTodaySelectionCell.xib in Resources */,
 				D0FCAE7D246406A900E81E4D /* BDDHomeCollectionCell.xib in Resources */,
+				D01943BC246A3A0100E7BBE9 /* BDDShopHomeCell.xib in Resources */,
 				D0E91DA7246957A20081DA13 /* BDDGoodsSizeAlertView.xib in Resources */,
 				D0708DA3246817A700E98D91 /* BDDRelatedProjectCell.xib in Resources */,
 				D0BB8FA02467FD05006EFA8A /* BDDGoodsSpecificationInforCell.xib in Resources */,
@@ -1060,6 +1095,7 @@
 				D0130B1324631AFD00D79B7F /* BDDInviteCodeAlertView.xib in Resources */,
 				D09F35F02462B5DA00459194 /* Main.storyboard in Resources */,
 				D080FA742465538900F76E14 /* BDDSearchResultsCell.xib in Resources */,
+				D01943C1246A48DA00E7BBE9 /* BDDShopHomeHeadView.xib in Resources */,
 				D0E91DAC2469ABAB0081DA13 /* BDDGoodsServiceAlertView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1144,6 +1180,7 @@
 				D0130A892462C9B700D79B7F /* BDDBaseViewController.m in Sources */,
 				D0130A872462C9B700D79B7F /* BDDConstant.m in Sources */,
 				D0E91DA5246957850081DA13 /* BDDGoodsSizeAlertView.m in Sources */,
+				D01943BB246A3A0100E7BBE9 /* BDDShopHomeCell.m in Sources */,
 				D0130B0B2462DFBC00D79B7F /* BDDWebViewController.m in Sources */,
 				D0130A832462C9B700D79B7F /* NSDate+Utils.m in Sources */,
 				D0708DA62468345F00E98D91 /* BDDRelatedProjecHeadView.m in Sources */,
@@ -1170,9 +1207,11 @@
 				D0130AA72462D47900D79B7F /* BDDHomeViewController.m in Sources */,
 				D0130A822462C9B700D79B7F /* UIColor+BDDCategory.m in Sources */,
 				D0130AF92462DF5200D79B7F /* LBXPermissionLocation.m in Sources */,
+				D01943C5246A79F800E7BBE9 /* BDDNavigationBar.m in Sources */,
 				D099EF272466F0FF00A2F79C /* BDDClassifyMenuCell.m in Sources */,
 				D0FCAE6F24639EA000E81E4D /* BDDUserAgreementAlertView.m in Sources */,
 				D0130A8E2462C9B700D79B7F /* BDDLinkTool.m in Sources */,
+				D01943B2246A380100E7BBE9 /* BDDShopHomeViewController.m in Sources */,
 				D0130AFC2462DF5200D79B7F /* LBXPermission.m in Sources */,
 				D0708D9824680A5F00E98D91 /* BDDMerchantsInforCell.m in Sources */,
 				D099EF372467A3DA00A2F79C /* BDDGoodsDetailsViewController.m in Sources */,
@@ -1209,6 +1248,7 @@
 				D0FCAE8724642CAB00E81E4D /* BDDTopCycleView.m in Sources */,
 				D0130B0A2462DFBC00D79B7F /* MyQRCodeAlertView.m in Sources */,
 				D0130A7D2462C9B700D79B7F /* UIButton+BDDTouchArea.m in Sources */,
+				D01943C0246A48DA00E7BBE9 /* BDDShopHomeHeadView.m in Sources */,
 				D0130AF02462DF5200D79B7F /* BDDMGetDevInfoUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1388,8 +1428,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.baoduoduo.BDD11;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baoduoduo.BDD;
+				PRODUCT_NAME = "宝多多";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1409,8 +1449,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.baoduoduo.BDD11;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baoduoduo.BDD;
+				PRODUCT_NAME = "宝多多";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

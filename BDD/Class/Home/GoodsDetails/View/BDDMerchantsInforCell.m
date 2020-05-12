@@ -31,6 +31,15 @@
     
     self.iconImageV.layer.cornerRadius = 20;
     self.iconImageV.clipsToBounds = YES;
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickAction)];
+    [self addGestureRecognizer:tap];
+
+}
+
+- (void)clickAction{
+    if (self.didClickBlock) {
+        self.didClickBlock();
+    }
 }
 
 @end

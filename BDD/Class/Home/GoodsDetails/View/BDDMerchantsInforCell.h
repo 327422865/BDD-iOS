@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BDDMerchantsInforCell : UICollectionViewCell
 
+@property (nonatomic, strong) void (^didClickBlock)(void);
+
 @end
 
 NS_ASSUME_NONNULL_END
